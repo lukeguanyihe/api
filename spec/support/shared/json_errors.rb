@@ -30,6 +30,7 @@ shared_examples_for 'forbidden_requests' do
       "detail" => "You have no right to access this resource."
     }
   end
+  
   it 'should return 403 status code' do
     subject
     expect(response).to have_http_status(:forbidden)

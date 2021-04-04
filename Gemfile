@@ -13,6 +13,7 @@ gem 'jsonapi-serializer'
 gem 'jsom-pagination'
 gem 'jsonapi_errors_handler'
 gem "octokit", "~> 4.0"
+gem 'active_model_serializers'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
